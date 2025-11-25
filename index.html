@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Pessoal - Currículo Online</title>
+    <!-- Incluindo a fonte Inter do Google Fonts para uma estética moderna -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- Referência ao arquivo de estilos principal do projeto. -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 
+        Seção de Cabeçalho (Header)
+        Contém o menu de navegação que se mantém fixo no topo da página e inclui o alternador de tema.
+    -->
+    <header>
+        <div class="container navbar">
+            <div class="logo"><a href="#inicio">Meu Portfólio</a></div>
+            
+            <!-- Botão de alternância do menu visível apenas em dispositivos móveis (Hamburger Menu). -->
+            <button class="menu-toggle" aria-label="Alternar Menu">
+                <span id="menu-icon">&#9776;</span>
+            </button>
+            
+            <!-- Lista de links de navegação para as âncoras (seções) do site. -->
+            <nav class="nav-links" id="nav-menu">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre Mim</a>
+                <a href="#formacao">Formação</a>
+                <a href="#portfolio">Portfólio</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <!-- Botão responsável por alternar entre o Tema Claro e o Tema Escuro. -->
+            <div>
+                <button id="theme-toggle">Alternar Tema: Escuro</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- 
+            SEÇÃO 1: INÍCIO/INTRODUÇÃO 
+            Apresentação principal e declaração de missão do desenvolvedor.
+        -->
+        <section id="inicio">
+            <div class="card" style="text-align: center;">
+                <h1 style="font-size: 3rem; margin-bottom: 0.5rem; color: var(--cor-primaria);">Marcos Roberto Kirsch</h1>
+                <p style="font-size: 1.5rem; color: var(--cor-secundaria);">Especialista em logística e planejamento | RPM | Faturamento | Ciência de dados | Excel | Power BI | Power Automate</p>
+                <p style="margin-top: 1.5rem; text-align: justify;">Apaixonado por tecnologia desde a adolescência, comecei minha carreira no setor calçadista, atuando no setor de corte. Após alguns anos, migrei para o setor gráfico, especializando-me como impressor offset e, por um breve período, arte-finalista. Com o encerramento das atividades da gráfica, trabalhei por um período como motorista em uma empresa calçadista da região, mas logo consegui uma vaga no ramo cervejeiro.
+
+Na indústria cervejeira, iniciei na brassagem e, assim que surgiu a oportunidade, me inscrevi para uma vaga administrativa na logística. Trabalhei por anos no faturamento, desenvolvendo minhas habilidades no SAP e Excel. Posteriormente, migrei para RPM (Gestão de Ativos de Giro), colaborando com a Logística para melhorar processos internos da fábrica. Esse trabalho me deu visibilidade e me levou a ser promovido a analista sênior em RPM corporativo.
+
+Nessa nova etapa, foquei em desenvolver minhas habilidades em dados, entregando projetos de BI e gestão de dados para o time. Esse foco me levou a iniciar uma graduação em Ciência de Dados, direcionando minha carreira para novas oportunidades na área de tecnologia</p>
+            </div>
+        </section>
+        
+        <!-- 
+            SEÇÃO 2: SOBRE MIM 
+            Detalhes pessoais, foto de perfil e lista de interesses/hobbies.
+        -->
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <div class="card">
+                <!-- Imagem de perfil. -->
+                <img src="img/Profile.jpg" alt="Foto de Perfil" class="profile-pic">
+                <h3>Apresentação</h3>
+                <p>Olá! Meu nome é Marcos Roberto Kirsch e sou apaixonado por tecnologia e análise de dados. Atualmente busco me especializar para desenvolver relatórios robustos de projeção e planejamento com foco em logística.</p>
+                
+                <h3>Interesses e Hobbies</h3>
+                <ul>
+                    <li style="text-align: justify;">Desenvolvimento de dashboards em Power BI.</li>
+                    <li style="text-align: justify;">Automação de relatórios com power automate.</li>
+                    <li style="text-align: justify;">Analise de movimentações de estoque com SAP ECC.</li>
+                    <li style="text-align: justify;">Hobby 1 - Montar e configurar computadores.</li>
+                    <li style="text-align: justify;">Hobby 2 - Jogar jogos de videogame no PC.</li>
+                    <li style="text-align: justify;">Hobby 3 - Viajar de moto.</li>
+                    <li style="text-align: justify;">Hobby 4 - Ouvir podcasts.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 
+            SEÇÃO 3: FORMAÇÃO E CONHECIMENTO 
+            Exibe a formação educacional, cursos, certificações e proficiência em idiomas em um layout de grade.
+        -->
+        <section id="formacao">
+            <h2>Formação & Conhecimento</h2>
+            <div class="grid-layout">
+                <!-- Detalhes da experiência acadêmica. -->
+                <div class="card">
+                    <h3>Educação</h3>
+                    <p><strong>Tecnologia em Ciência de dados</strong></p>
+                    <p>Uninter</p>
+                    <p><small>2025 - Cursando</small></p>
+                    <hr style="margin: 1rem 0; border-color: var(--cor-borda);">
+                    <p><strong>Administração de empresas</strong></p>
+                    <p>Anhanguera Educacional</p>
+                    <p><small>2017 - 2020</small></p>
+                </div>
+                
+                <!-- Lista de cursos extras e certificados relevantes. -->
+                <div class="card">
+                    <h3>Cursos e Certificados</h3>
+                    <ul>
+                        <li>Power BI (Alura)</li>
+                        <li>Design Thinking (Mastertech)</li>
+                        <li>Introdução a inteligência artificial aplicada a dados com a Heineken (DIO)</li>
+                        <li>Banco de dados (DIO)</li>
+                    </ul>
+                </div>
+
+                 <!-- Nível de proficiência em idiomas. -->
+                 <div class="card">
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li>Português: Nativo</li>
+                        <li>Inglês: Básico, Cursando.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+            SEÇÃO 4: PORTFÓLIO 
+            Apresenta os projetos desenvolvidos pelo profissional com links de acesso e descrição.
+        -->
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="grid-layout">
+                
+                <div class="card projeto-card">
+                    <h3>Projeto 1: CriandoUmDashDIO</h3>
+                    <p>Criação de um dashboard em Excel seguindo as premissas do desafio proposto pela DIO.</p>
+                    <a href="https://github.com/MarcosRKirsch/CriandoUmDashDIO" target="_blank">Ver no GitHub</a>
+                </div>
+
+                <div class="card projeto-card">
+                    <h3>Projeto 2: Banco de dados E-commerce</h3>
+                    <p>Trabalho refinando modelo conceitual de banco de dados - E-commerce Optei por adicionar a identificação do cnpj ou cpf de forma unica já no cadastro do cliente e também a definição se é pessoa fisica ou pessoa jurídica para o rastreio inclui junto com o pedido o rastreio como float visto que a informação deverá persistir criei uma entidade nova para pagamento onde irá trazer todas as informações necessárias em um relacionamento um para muitas onde um cliente pode ter varias formas de pagamento cadastradas</p>
+                    <a href="https://github.com/MarcosRKirsch/E-commerce" target="_blank">Ver no GitHub</a>
+                </div>
+
+                <div class="card projeto-card">
+                    <h3>Projeto 3: Banco de dados BDOficina</h3>
+                    <p>Criação de um banco de dados de uma oficina do zero seguindo as premissas do desafio apresentado, projeto criado usando SQL e My SQL Workbench.</p>
+                    <a href="https://github.com/MarcosRKirsch/BDOficina" target="_blank">Ver no GitHub</a>
+                </div>
+                
+                <!-- Estrutura para adicionar projetos futuros. -->
+
+            </div>
+        </section>
+
+        <!-- 
+            SEÇÃO 5: CONTATO 
+            Formulário para que visitantes enviem mensagens, com validação de campos gerenciada pelo script.js.
+        -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <div class="card" style="max-width: 600px; margin: 0 auto;">
+                <form id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required aria-describedby="nome-erro">
+                        <span id="nome-erro" class="error-message"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required aria-describedby="email-erro">
+                        <span id="email-erro" class="error-message"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required aria-describedby="mensagem-erro"></textarea>
+                        <span id="mensagem-erro" class="error-message"></span>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <!-- 
+        MODAL PARA FEEDBACK 
+        Elemento flutuante usado para exibir mensagens de sucesso ou erro (substituindo o alert() nativo).
+    -->
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Meu Portfólio Pessoal. Desenvolvido com HTML5, CSS3 e JavaScript Puros.</p>
+    </footer>
+
+    <!-- Referência ao arquivo JavaScript para a lógica de interatividade, formulário e tema. -->
+    <script src="js/script.js"></script>
+</body>
+</html>
